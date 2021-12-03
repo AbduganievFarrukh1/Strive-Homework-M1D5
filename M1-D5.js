@@ -125,10 +125,10 @@ area(5,6)*/
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
 
-const cutString = function(apple){
-    console.log(apple.split("").slice(1,-1).join(""));
-     }
-     cutString("apple")
+// const cutString = function(apple){
+//     console.log(apple.split("").slice(1,-1).join(""));
+//      }
+//      cutString("apple")
 
 /* WRITE YOUR ANSWER HERE */
 
@@ -136,6 +136,14 @@ const cutString = function(apple){
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
 
+const giveMeRandom = function(n) {
+    let arrWithNums = [ ];
+    for(i = 0; i < n; i++) {
+        arrWithNums.push(Math.floor(Math.random() * 10)); 
+    }
+    return arrWithNums;
+}
+console.log(giveMeRandom(3));
 /* WRITE YOUR ANSWER HERE */
 
 /* WHEN YOU ARE FINISHED
