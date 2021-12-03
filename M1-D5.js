@@ -12,11 +12,11 @@ ASSIGNMENT RULES
  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
 */
 
-function area(l1 ,l2){
+/*function area(l1 ,l2){
     console.log(l1 *l2)
    // return l1 + l2 
 }
-area(5,6)
+area(5,6)*/
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 2
@@ -24,6 +24,15 @@ area(5,6)
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
 
+const crazySum = function(x1,x2){
+    if(x1 != x2){
+        return x1+x2;
+    } else{
+        let sum = x1 + x2;
+        console.log(sum * 3); 
+    }
+}
+crazySum(4,4)
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 3
