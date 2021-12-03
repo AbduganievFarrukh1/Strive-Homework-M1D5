@@ -40,18 +40,30 @@ area(5,6)*/
  It should return triple their absolute difference if the given number is greater than 19.
 */
 
-const crazyDiff = function(y1,y2 = 19){
-   // console.log(y2-y1);
-    let diff = y2 -y1 ;
-    console.log(diff * 3); 
+// const crazyDiff = function(y1,y2 = 19){
+//    // console.log(y2-y1);
+//     let diff = y2 -y1 ;
+//     console.log(diff * 3); 
 
-}
-crazyDiff(15)
+// }
+// crazyDiff(15)
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
+
+const boundary = function(n){
+    if (n >= 20 && n <=100 || n == 400){
+        console.log(true);  
+    }
+    else {
+        //return false
+        console.log(false);
+    }
+
+}
+boundary(400)
 
 /* WRITE YOUR ANSWER HERE */
 
