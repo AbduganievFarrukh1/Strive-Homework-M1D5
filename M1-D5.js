@@ -24,15 +24,15 @@ area(5,6)*/
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
 
-const crazySum = function(x1,x2){
-    if(x1 != x2){
-        return x1+x2;
-    } else{
-        let sum = x1 + x2;
-        console.log(sum * 3); 
-    }
-}
-crazySum(4,4)
+// const crazySum = function(x1,x2){
+//     if(x1 != x2){
+//         return x1+x2;
+//     } else{
+//         let sum = x1 + x2;
+//         console.log(sum * 3); 
+//     }
+// }
+// crazySum(4,4)
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 3
@@ -40,6 +40,13 @@ crazySum(4,4)
  It should return triple their absolute difference if the given number is greater than 19.
 */
 
+const crazyDiff = function(y1,y2 = 19){
+   // console.log(y2-y1);
+    let diff = y2 -y1 ;
+    console.log(diff * 3); 
+
+}
+crazyDiff(15)
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 4
