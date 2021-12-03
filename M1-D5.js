@@ -53,17 +53,17 @@ area(5,6)*/
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
 
-const boundary = function(n){
-    if (n >= 20 && n <=100 || n == 400){
-        console.log(true);  
-    }
-    else {
-        //return false
-        console.log(false);
-    }
+// const boundary = function(n){
+//     if (n >= 20 && n <=100 || n == 400){
+//         console.log(true);  
+//     }
+//     else {
+//         //return false
+//         console.log(false);
+//     }
 
-}
-boundary(400)
+// }
+// boundary(400)
 
 /* WRITE YOUR ANSWER HERE */
 
@@ -71,6 +71,16 @@ boundary(400)
  Write a function called "strivify" which accepts a string as a parameter.
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
+
+const strivify = function(firstString){
+    if(firstString == "Strive" ){
+        console.log(firstString);
+    }
+    else{
+        console.log("Strive" + firstString);
+    }
+}
+strivify("Strive")
 
 /* WRITE YOUR ANSWER HERE */
 
