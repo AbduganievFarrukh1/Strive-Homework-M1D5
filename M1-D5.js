@@ -89,12 +89,12 @@ area(5,6)*/
  HINT: Modulus Operator
 */
 
-const check3and7 = function(num1){
-    if(num1 % 3 == 0 || num1 % 7 == 0){
-        console.log(`${num1} This number multiple of 3 and 7`);
-    }
-}
-check3and7(21)
+// const check3and7 = function(num1){
+//     if(num1 % 3 == 0 || num1 % 7 == 0){
+//         console.log(`${num1} This number multiple of 3 and 7`);
+//     }
+// }
+// check3and7(21)
 
 /* WRITE YOUR ANSWER HERE */
 
@@ -102,6 +102,10 @@ check3and7(21)
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
 
+const reverseString = function(strive){
+    console.log(strive.split("").reverse().join(""));
+}
+reverseString("world")
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 8
