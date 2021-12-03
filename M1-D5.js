@@ -102,21 +102,33 @@ area(5,6)*/
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
 
-const reverseString = function(strive){
-    console.log(strive.split("").reverse().join(""));
-}
-reverseString("world")
+// const reverseString = function(strive){
+//     console.log(strive.split("").reverse().join(""));
+// }
+// reverseString("world")
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
 
+
+// const upperFirst = function(str){
+//     console.log(str.split("").);
+//     // console.log(str.toUpperCase(str[0]));
+
+// }
+// upperFirst("apple, avacado")
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
+
+const cutString = function(apple){
+    console.log(apple.split("").slice(1,-1).join(""));
+     }
+     cutString("apple")
 
 /* WRITE YOUR ANSWER HERE */
 
