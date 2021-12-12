@@ -105,7 +105,7 @@ area(5,6)*/
 // const reverseString = function(strive){
 //     console.log(strive.split("").reverse().join(""));
 // }
-// reverseString("world")
+// reverseString("Strive")
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 8
